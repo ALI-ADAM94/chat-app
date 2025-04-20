@@ -2,7 +2,7 @@
 import './App.css'
 
 import { useEffect, useState } from 'react'
-import { supabase } from './lib/supabase'
+import { supabase } from '../supabase';
 
 function App() {
   const [messages, setMessages] = useState([])
